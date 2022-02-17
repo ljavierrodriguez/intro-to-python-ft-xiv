@@ -36,3 +36,17 @@ persona["apellido"]
 numero = 1 if 4 > 5 else 0 # ternario en python
 
 print(numero)
+
+nombre = "Luis"
+apellido = "Rodriguez"
+
+edad = 40
+
+nombre_completo1 = nombre + " " + apellido + "Tiene " + edad + " años."
+
+
+nombre_completo2 = f"{nombre} {apellido}, Tiene {edad} años."
+
+nombre_completo3 = "%s %s" % (nombre, apellido)
+
+print(nombre_completo1 + ", Tiene " + str(edad) + " años.")
