@@ -31,3 +31,8 @@ persona = {
 }
 
 persona["apellido"]
+
+
+numero = 1 if 4 > 5 else 0 # ternario en python
+
+print(numero)

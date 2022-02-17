@@ -30,3 +30,5 @@ persona.nombre
 persona.apellido
 
 persona["apellido"]
+
+numero = 4 > 5 ? 1 : 0; // ternario en javascript
