@@ -42,11 +42,11 @@ apellido = "Rodriguez"
 
 edad = 40
 
-nombre_completo1 = nombre + " " + apellido + "Tiene " + edad + " años."
+nombre_completo1 = nombre + " " + apellido + "Tiene " + str(edad) + " años."
 
 
 nombre_completo2 = f"{nombre} {apellido}, Tiene {edad} años."
 
-nombre_completo3 = "%s %s" % (nombre, apellido)
+nombre_completo3 = "%s %s %s" % (nombre, apellido, edad)
 
-print(nombre_completo1 + ", Tiene " + str(edad) + " años.")
+print(nombre_completo3 + ", Tiene " + str(edad) + " años.")
